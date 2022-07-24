@@ -1,0 +1,9 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task input:checked + label{
+    text-decoration: line-through;
+    color: green;
+}
