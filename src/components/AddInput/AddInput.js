@@ -7,6 +7,7 @@ function AddInput(props) {
     const handleAdd = () => {
         if(inputValue !== ''){
             props.onAdd(inputValue);
+            setInputValue('');
         }
     }
 

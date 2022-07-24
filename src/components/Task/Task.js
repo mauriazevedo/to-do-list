@@ -9,7 +9,7 @@ function Task(props) {
                 <input type='checkbox' id={`task-${props.index}`}/>
                 <label htmlFor={`task-${props.index}`}>{props.item}</label>
             </div>
-            <DelButton buttonText='Del' index={props.index} delTask={props.del}/>
+            <DelButton buttonText={<i class="fa-solid fa-trash-can"></i>} index={props.index} delTask={props.del}/>
         </div>
     );
 }

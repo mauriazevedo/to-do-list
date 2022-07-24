@@ -1,5 +1,5 @@
 .todo-list{
-    background-color: red;
+    background-color: #55038C;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,5 +8,6 @@
 
 .todo-list h1{
     width: 100%;
+    color: #fff;
     text-align: center;
 }

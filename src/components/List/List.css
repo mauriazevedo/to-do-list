@@ -4,8 +4,23 @@ ul{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: 50px 5%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    word-break: break-word;
+    font-size: 20px;
+}
+
+ul:empty{
+    display: none;
 }
 
 ul li{
     width: 100%;
+    margin: 10px 0;
+    background-color: #956BBF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
 }

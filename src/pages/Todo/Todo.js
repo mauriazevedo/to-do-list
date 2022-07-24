@@ -18,8 +18,8 @@ function Todo() {
 
     return (
         <div className='todo-list'>
-            <h1>To-do List</h1>
-            <AddInput buttonText='Add' onAdd={addTask} placeholder='Adicionar Task'/>
+            <h1>To-do List com React</h1>
+            <AddInput buttonText={<i class="fa-solid fa-plus"></i>} onAdd={addTask} placeholder='Adicionar Task'/>
             <List itens={tasks} onDel={delTask}/>
         </div>
     );
